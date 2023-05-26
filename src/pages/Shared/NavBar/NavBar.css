@@ -1,0 +1,9 @@
+.thumbs{
+    width: 480px;
+    margin: 0 auto;
+}
+.ex{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}

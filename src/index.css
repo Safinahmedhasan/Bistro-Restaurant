@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Inter&display=swap');
+
+
+.font-Cinzel{
+    font-family: 'Cinzel', serif;
+
+}
+.font-Inter{
+    font-family: 'Inter', sans-serif;
+
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

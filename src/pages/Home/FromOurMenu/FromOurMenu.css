@@ -1,0 +1,19 @@
+.fromMenuBg{
+        background-attachment: fixed;
+        /* background: linear-gradient(0deg, rgba(21, 21, 21, 0.7), rgba(21, 21, 21, 0.7)), url('../../../assets/home/chef-service.jpg'); */
+        background-repeat: no-repeat;
+        background-image: url('../../../assets/home/chef-service.jpg');
+       
+}
+.btn-ex{
+    border-bottom: 3px solid #ffffff;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+.btn-ex:hover{
+    border-bottom: 3px solid #ffffff;
+    background: #ffffff;
+    color: #000;
+    border-radius: 8px;
+    transition: all 0.3s;
+}

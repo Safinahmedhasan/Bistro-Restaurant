@@ -1,0 +1,12 @@
+.ex-btn {
+    background: #E8E8E8;
+    border-bottom: 3px solid #BB8506;
+    border-radius: 8px;
+    color: #BB8506;
+    transition: all 0.3s;
+}
+.ex-btn:hover {
+    background: #1F2937;
+    color: #BB8506;
+
+}
