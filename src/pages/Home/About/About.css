@@ -1,7 +1,11 @@
 .ex-back{
     background-image: url('../../../assets/home/chef-service.jpg');
-    /* min-height: 100vh; 
-    background-repeat: no-repeat;
-    background-size: 100%; */
+    background-repeat: no-repeat; 
+    
     background-attachment: fixed;
 }
+@media screen and (max-width: 600px) {
+    .ex-back {
+        background-size: 1000px;
+    }
+  }

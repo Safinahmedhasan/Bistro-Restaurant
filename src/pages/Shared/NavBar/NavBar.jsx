@@ -1,16 +1,20 @@
+import { Link } from 'react-router-dom';
 import './NavBar.css'
 
 const NavBar = () => {
 
     const navOptions = <>
 
-        <li><a>Item 1</a></li>
-        <li><a>Item 3</a></li>
+        <Link to='/'> <li><a>Home</a></li></Link>
+        <li><a>CONTACT US</a></li>
+        <li><a>DASHBOARD</a></li>
+        <Link to='/ourMenu'><li><a>OUR MENU</a></li></Link>
+        <li><a>OUR SHOP</a></li>
     </>
 
     return (
-        <div className='ex  bg-black opacity-60 '>
-            <div className="container mx-auto navbar text-white relative z-10">
+        <div className='ex bg-black opacity-80 '>
+            <div className="container mx-auto navbar  relative z-10 ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -20,10 +24,14 @@ const NavBar = () => {
                             {navOptions}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <div className='text-white'>
+                        <a className="btn btn-ghost normal-case text-xl font-Cinzel ">BISTRO BOSS</a>
+                        <br />   <p className='ml-4'>R E S T A U R A N T</p>
+                    </div>
+
                 </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
+                <div className="navbar-center hidden lg:flex ">
+                    <ul className="menu menu-horizontal px-1 text-white">
                         {navOptions}
                     </ul>
                 </div>
