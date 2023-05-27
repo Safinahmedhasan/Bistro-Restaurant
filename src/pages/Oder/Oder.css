@@ -1,0 +1,11 @@
+.ex-oder-food {
+    background-image: url('../../assets/shop/banner2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 600px) {
+    .ex-oder-food {
+        background-size: 1000px;
+    }
+}
